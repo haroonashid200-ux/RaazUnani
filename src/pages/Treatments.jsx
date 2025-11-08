@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const treatments = [
   { id: "sexual-weakness", name: "Sexual Weakness", img: "ss1" },
-  { id: "body-weakness-fatigue", name: "Body Weakness / Fatigue", img: "ss2" },
+  { id: "body-weakness-fatigue", name: "Body Weakness", img: "ss2" },
   { id: "erectile-dysfunction", name: "Erectile Dysfunction", img: "ss3" },
   { id: "weight-gain", name: "Weight Gain (Underweight)", img: "ss44" },
   { id: "premature-ejaculation", name: "Premature Ejaculation", img: "ss5" },
   { id: "nightfall", name: "Nightfall (Wet Dreams)", img: "ss6" },
   { id: "stress-nerve-weakness", name: "Stress & Nerve Weakness", img: "ss7" },
-  { id: "sperm-in-urine", name: "Sperm in Urine / Dhatu Rog", img: "ss8" },
+  { id: "sperm-in-urine", name: "Sperm in Urine", img: "ss8" },
   { id: "impotency-fertility", name: "Impotency & Fertility", img: "ss9" },
   { id: "digestive-problems", name: "Digestive Problems", img: "ss10" },
   { id: "diabetes-related-weakness", name: "Diabetes Related Weakness", img: "ss11" },

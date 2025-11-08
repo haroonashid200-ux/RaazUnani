@@ -71,7 +71,7 @@ function TreatmentCard({ treatment }) {
           {treatment.name}
         </h3>
         <p className="text-[#0a0f0c]/80 text-xs sm:text-sm leading-relaxed">
-          Click to read more about {treatment.name}.
+          Click to read more.
         </p>
       </div>
     </Link>
