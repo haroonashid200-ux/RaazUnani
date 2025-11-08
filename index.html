@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Raaz Unani Dawakhana</title>
+    <!-- put this at the top of <head> in index.html -->
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+
+<style>
+  /* critical (inline) CSS to avoid FOUC / flash of wrong colors */
+  :root { --raaz-dark: #0a0f0c; --raaz-gold: #C9A037; --raaz-muted: #bdb6a8; }
+  html, body, #root { height: 100%; background: var(--raaz-dark) !important; color: #ffffff !important; }
+  /* small reset so no visible white flash if CSS not loaded */
+  body { margin: 0; }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <meta name="description" content="Trusted Unani clinic for men’s health and sexual wellness. Herbal, safe and effective treatments." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Preload hero -->
+    <link rel="preload" as="image" href="/public/hero.jpg">
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
