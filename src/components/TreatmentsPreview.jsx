@@ -15,14 +15,13 @@ export default function TreatmentsPreview() {
           Our Treatments
         </h2>
 
-        {/* Grid Layout */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
+        {/* Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6">
           {treatments.map((t) => (
             <TreatmentCard key={t.id} treatment={t} />
           ))}
         </div>
 
-        {/* View More Button */}
         <div className="mt-10 text-center">
           <Link
             to="/treatments"
@@ -57,7 +56,7 @@ function TreatmentCard({ treatment }) {
       className="block group rounded-2xl overflow-hidden border border-[#D4AF37]/30 hover:border-[#FFD700] transition-all duration-300 ease-out bg-gradient-to-b from-[#D4AF37] to-[#C9A037]"
     >
       {/* Image */}
-      <div className="aspect-[4/3] overflow-hidden sm:aspect-[3/2]">
+      <div className="h-36 sm:h-44 overflow-hidden">
         <img
           src={src}
           alt={treatment.name}
@@ -66,12 +65,12 @@ function TreatmentCard({ treatment }) {
         />
       </div>
 
-      {/* Text */}
-      <div className="p-4 sm:p-5">
-        <h3 className="text-base sm:text-lg md:text-xl font-semibold text-[#0a0f0c] mb-1 sm:mb-2">
+      {/* Card Body */}
+      <div className="p-3 sm:p-5">
+        <h3 className="text-base sm:text-xl font-semibold text-[#0a0f0c] mb-1 sm:mb-2">
           {treatment.name}
         </h3>
-        <p className="text-[#0a0f0c]/80 text-sm sm:text-base leading-relaxed">
+        <p className="text-[#0a0f0c]/80 text-xs sm:text-sm leading-relaxed">
           Click to read more about {treatment.name}.
         </p>
       </div>
