@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const treatments = [
   { id: "sexual-weakness", name: "Sexual Weakness", img: "ss1" },
-  { id: "body-weakness-fatigue", name: "Body Weakness / Fatigue", img: "ss2" },
+  { id: "body-weakness-fatigue", name: "Body Weakness", img: "ss2" },
   { id: "erectile-dysfunction", name: "Erectile Dysfunction", img: "ss3" },
 ];
 
@@ -56,7 +56,7 @@ function TreatmentCard({ treatment }) {
       className="block group rounded-2xl overflow-hidden border border-[#D4AF37]/30 hover:border-[#FFD700] transition-all duration-300 ease-out bg-gradient-to-b from-[#D4AF37] to-[#C9A037]"
     >
       {/* Image */}
-      <div className="h-48 sm:h-44 overflow-hidden">
+      <div className="h-40 sm:h-44 overflow-hidden">
         <img
           src={src}
           alt={treatment.name}
@@ -67,7 +67,7 @@ function TreatmentCard({ treatment }) {
 
       {/* Card Body */}
       <div className="p-3 sm:p-5">
-        <h3 className="text-base sm:text-xl font-semibold text-[#0a0f0c] mb-1 sm:mb-2">
+        <h3 className="text-sm sm:text-xl font-semibold text-[#0a0f0c] mb-1 sm:mb-2">
           {treatment.name}
         </h3>
         <p className="text-[#0a0f0c]/80 text-xs sm:text-sm leading-relaxed">
