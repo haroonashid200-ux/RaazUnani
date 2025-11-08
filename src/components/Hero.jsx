@@ -50,7 +50,7 @@ export default function Hero() {
             className="md:w-1/2 flex justify-center md:justify-end"
           >
         <img
-  src="/banner1.PNG"
+  src="/banner1.png"
   alt="Raaz Unani Dawakhana"
   className="w-[75%] sm:w-[50%] md:w-[80%] object-contain drop-shadow-2xl rounded-xl border border-[#D4AF37]/20"
 />
