@@ -56,7 +56,7 @@ function TreatmentCard({ treatment }) {
       className="block group rounded-2xl overflow-hidden border border-[#D4AF37]/30 hover:border-[#FFD700] transition-all duration-300 ease-out bg-gradient-to-b from-[#D4AF37] to-[#C9A037]"
     >
       {/* Image */}
-      <div className="h-36 sm:h-44 overflow-hidden">
+      <div className="h-48 sm:h-44 overflow-hidden">
         <img
           src={src}
           alt={treatment.name}
