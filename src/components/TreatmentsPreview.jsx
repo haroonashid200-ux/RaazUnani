@@ -10,13 +10,14 @@ const treatments = [
 export default function TreatmentsPreview() {
   return (
     <section className="py-12 bg-[#0a0f0c]">
-      <div className="max-w-6xl mx-auto px-6">
+      {/* Reduced padding on mobile, normal on larger screens */}
+      <div className="max-w-6xl mx-auto px-3 sm:px-6">
         <h2 className="text-3xl font-bold text-white text-center mb-8">
           Our Treatments
         </h2>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-6">
           {treatments.map((t) => (
             <TreatmentCard key={t.id} treatment={t} />
           ))}
@@ -56,7 +57,7 @@ function TreatmentCard({ treatment }) {
       className="block group rounded-2xl overflow-hidden border border-[#D4AF37]/30 hover:border-[#FFD700] transition-all duration-300 ease-out bg-gradient-to-b from-[#D4AF37] to-[#C9A037]"
     >
       {/* Image */}
-      <div className="h-40 sm:h-44 overflow-hidden">
+      <div className="h-44 sm:h-44 overflow-hidden">
         <img
           src={src}
           alt={treatment.name}
