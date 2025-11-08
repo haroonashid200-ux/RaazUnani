@@ -49,11 +49,12 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="md:w-1/2 flex justify-center md:justify-end"
           >
-            <img
-              src="/banner1.PNG"
-              alt="Raaz Unani Dawakhana"
-              className="w-[75%] sm:w-[50%] md:w-[80%] object-contain drop-shadow-2xl rounded-xl border border-[#D4AF37]/20"
-            />
+        <img
+  src="/banner1.PNG"
+  alt="Raaz Unani Dawakhana"
+  className="w-[75%] sm:w-[50%] md:w-[80%] object-contain drop-shadow-2xl rounded-xl border border-[#D4AF37]/20"
+/>
+
           </motion.div>
         </div>
       </div>
